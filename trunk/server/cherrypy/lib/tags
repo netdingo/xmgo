@@ -1,0 +1,253 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+AcceptElement	http.py	/^class AcceptElement(HeaderElement):$/;"	c
+CaseInsensitiveDict	http.py	/^class CaseInsensitiveDict(dict):$/;"	c
+CoverStats	covercp.py	/^class CoverStats(object):$/;"	c
+FileSession	sessions.py	/^class FileSession(Session):$/;"	c
+HeaderElement	http.py	/^class HeaderElement(object):$/;"	c
+HeaderMap	http.py	/^class HeaderMap(CaseInsensitiveDict):$/;"	c
+Host	http.py	/^class Host(object):$/;"	c
+MemcachedSession	sessions.py	/^class MemcachedSession(Session):$/;"	c
+MemoryCache	caching.py	/^class MemoryCache:$/;"	c
+MultipartWrapper	safemime.py	/^class MultipartWrapper(object):$/;"	c
+PostgresqlSession	sessions.py	/^class PostgresqlSession(Session):$/;"	c
+ProfileAggregator	profiler.py	/^class ProfileAggregator(Profiler):$/;"	c
+Profiler	profiler.py	/^class Profiler(object):$/;"	c
+RamSession	sessions.py	/^class RamSession(Session):$/;"	c
+Session	sessions.py	/^class Session(object):$/;"	c
+SessionAuth	cptools.py	/^class SessionAuth(object):$/;"	c
+_A1	httpauth.py	/^def _A1(params, password):$/;"	f
+_A2	httpauth.py	/^def _A2(params, method, kwargs):$/;"	f
+_Builder	__init__.py	/^class _Builder:$/;"	c
+__call__	profiler.py	/^    def __call__(self, environ, start_response):$/;"	m	class:make_app	file:
+__cmp__	http.py	/^    def __cmp__(self, other):$/;"	m	class:AcceptElement	file:
+__contains__	http.py	/^    def __contains__(self, key):$/;"	m	class:CaseInsensitiveDict	file:
+__contains__	sessions.py	/^    def __contains__(self, key):$/;"	m	class:Session	file:
+__del__	sessions.py	/^    def __del__(self):$/;"	m	class:PostgresqlSession	file:
+__delitem__	http.py	/^    def __delitem__(self, key):$/;"	m	class:CaseInsensitiveDict	file:
+__delitem__	sessions.py	/^    def __delitem__(self, key):$/;"	m	class:Session	file:
+__getitem__	http.py	/^    def __getitem__(self, key):$/;"	m	class:CaseInsensitiveDict	file:
+__getitem__	sessions.py	/^    def __getitem__(self, key):$/;"	m	class:Session	file:
+__init__	caching.py	/^    def __init__(self):$/;"	m	class:MemoryCache
+__init__	http.py	/^    def __init__(self, ip, port, name=None):$/;"	m	class:Host
+__init__	http.py	/^    def __init__(self, value, params=None):$/;"	m	class:HeaderElement
+__init__	profiler.py	/^    def __init__(self, nextapp, path=None, aggregate=False):$/;"	m	class:make_app
+__init__	profiler.py	/^    def __init__(self, path=None):$/;"	m	class:ProfileAggregator
+__init__	profiler.py	/^    def __init__(self, path=None):$/;"	m	class:Profiler
+__init__	safemime.py	/^    def __init__(self, rfile, clen):$/;"	m	class:MultipartWrapper
+__init__	sessions.py	/^    def __init__(self, id=None, **kwargs):$/;"	m	class:FileSession
+__init__	sessions.py	/^    def __init__(self, id=None, **kwargs):$/;"	m	class:PostgresqlSession
+__init__	sessions.py	/^    def __init__(self, id=None, **kwargs):$/;"	m	class:Session
+__iter__	safemime.py	/^    def __iter__(self):$/;"	m	class:MultipartWrapper	file:
+__len__	sessions.py	/^    def __len__(self):$/;"	m	class:FileSession	file:
+__len__	sessions.py	/^    def __len__(self):$/;"	m	class:MemcachedSession	file:
+__len__	sessions.py	/^    def __len__(self):$/;"	m	class:RamSession	file:
+__repr__	http.py	/^    def __repr__(self):$/;"	m	class:Host	file:
+__setitem__	http.py	/^    def __setitem__(self, key, value):$/;"	m	class:CaseInsensitiveDict	file:
+__setitem__	sessions.py	/^    def __setitem__(self, key, value):$/;"	m	class:Session	file:
+__str__	http.py	/^    def __str__(self):$/;"	m	class:HeaderElement	file:
+__unicode__	http.py	/^    def __unicode__(self):$/;"	m	class:HeaderElement	file:
+_attempt	static.py	/^def _attempt(filename, content_types):$/;"	f
+_checkBasicResponse	httpauth.py	/^def _checkBasicResponse (auth_map, password, method='GET', encrypt=None, **kwargs):$/;"	f
+_checkDigestResponse	httpauth.py	/^def _checkDigestResponse(auth_map, password, method = "GET", A1 = None, **kwargs):$/;"	f
+_computeDigestResponse	httpauth.py	/^def _computeDigestResponse(auth_map, password, method = "GET", A1 = None,**kwargs):$/;"	f
+_delete	sessions.py	/^    def _delete(self):$/;"	m	class:FileSession
+_delete	sessions.py	/^    def _delete(self):$/;"	m	class:MemcachedSession
+_delete	sessions.py	/^    def _delete(self):$/;"	m	class:PostgresqlSession
+_delete	sessions.py	/^    def _delete(self):$/;"	m	class:RamSession
+_exists	sessions.py	/^    def _exists(self):$/;"	m	class:FileSession
+_exists	sessions.py	/^    def _exists(self):$/;"	m	class:MemcachedSession
+_exists	sessions.py	/^    def _exists(self):$/;"	m	class:PostgresqlSession
+_exists	sessions.py	/^    def _exists(self):$/;"	m	class:RamSession
+_get_file_path	sessions.py	/^    def _get_file_path(self):$/;"	m	class:FileSession
+_get_id	sessions.py	/^    def _get_id(self):$/;"	m	class:Session
+_graft	covercp.py	/^def _graft(path, tree):$/;"	f
+_load	sessions.py	/^    def _load(self):$/;"	m	class:MemcachedSession
+_load	sessions.py	/^    def _load(self):$/;"	m	class:PostgresqlSession
+_load	sessions.py	/^    def _load(self):$/;"	m	class:RamSession
+_load	sessions.py	/^    def _load(self, path=None):$/;"	m	class:FileSession
+_parseBasicAuthorization	httpauth.py	/^def _parseBasicAuthorization (auth_params):$/;"	f
+_parseDigestAuthorization	httpauth.py	/^def _parseDigestAuthorization (auth_params):$/;"	f
+_percent	covercp.py	/^def _percent(statements, missing):$/;"	f
+_save	sessions.py	/^    def _save(self, expiration_time):$/;"	m	class:FileSession
+_save	sessions.py	/^    def _save(self, expiration_time):$/;"	m	class:MemcachedSession
+_save	sessions.py	/^    def _save(self, expiration_time):$/;"	m	class:PostgresqlSession
+_save	sessions.py	/^    def _save(self, expiration_time):$/;"	m	class:RamSession
+_set_id	sessions.py	/^    def _set_id(self, value):$/;"	m	class:Session
+_set_response	xmlrpc.py	/^def _set_response(body):$/;"	f
+_show_branch	covercp.py	/^def _show_branch(root, base, path, pct=0, showpct=False, exclude=""):$/;"	f
+_skip_file	covercp.py	/^def _skip_file(path, exclude):$/;"	f
+accept	cptools.py	/^def accept(media=None):$/;"	f
+acquire_lock	sessions.py	/^    def acquire_lock(self):$/;"	m	class:MemcachedSession
+acquire_lock	sessions.py	/^    def acquire_lock(self):$/;"	m	class:PostgresqlSession
+acquire_lock	sessions.py	/^    def acquire_lock(self):$/;"	m	class:RamSession
+acquire_lock	sessions.py	/^    def acquire_lock(self, path=None):$/;"	m	class:FileSession
+annotated_file	covercp.py	/^    def annotated_file(self, filename, statements, excluded, missing):$/;"	m	class:CoverStats
+anonymous	cptools.py	/^    def anonymous(self):$/;"	m	class:SessionAuth
+attributes	__init__.py	/^def attributes(full_attribute_name):$/;"	f
+basicAuth	httpauth.py	/^def basicAuth (realm):$/;"	f
+basic_auth	auth.py	/^def basic_auth(realm, users, encrypt=None):$/;"	f
+build	__init__.py	/^    def build(self, o):$/;"	m	class:_Builder
+build_Add	__init__.py	/^    def build_Add(self, o):$/;"	m	class:_Builder
+build_CallFunc	__init__.py	/^    def build_CallFunc(self, o):$/;"	m	class:_Builder
+build_Const	__init__.py	/^    def build_Const(self, o):$/;"	m	class:_Builder
+build_Dict	__init__.py	/^    def build_Dict(self, o):$/;"	m	class:_Builder
+build_Getattr	__init__.py	/^    def build_Getattr(self, o):$/;"	m	class:_Builder
+build_List	__init__.py	/^    def build_List(self, o):$/;"	m	class:_Builder
+build_Name	__init__.py	/^    def build_Name(self, o):$/;"	m	class:_Builder
+build_NoneType	__init__.py	/^    def build_NoneType(self, o):$/;"	m	class:_Builder
+build_Subscript	__init__.py	/^    def build_Subscript(self, o):$/;"	m	class:_Builder
+build_Tuple	__init__.py	/^    def build_Tuple(self, o):$/;"	m	class:_Builder
+build_UnaryAdd	__init__.py	/^    def build_UnaryAdd(self, o):$/;"	m	class:_Builder
+build_UnarySub	__init__.py	/^    def build_UnarySub(self, o):$/;"	m	class:_Builder
+calculateNonce	httpauth.py	/^def calculateNonce (realm, algorithm = MD5):$/;"	f
+checkResponse	httpauth.py	/^def checkResponse (auth_map, password, method = "GET", encrypt=None, **kwargs):$/;"	f
+check_auth	auth.py	/^def check_auth(users, encrypt=None, realm=None):$/;"	f
+check_username_and_password	cptools.py	/^    def check_username_and_password(self, username, password):$/;"	m	class:SessionAuth
+clean_up	sessions.py	/^    def clean_up(self):$/;"	m	class:FileSession
+clean_up	sessions.py	/^    def clean_up(self):$/;"	m	class:PostgresqlSession
+clean_up	sessions.py	/^    def clean_up(self):$/;"	m	class:RamSession
+clean_up	sessions.py	/^    def clean_up(self):$/;"	m	class:Session
+clear	caching.py	/^    def clear(self):$/;"	m	class:MemoryCache
+clear	sessions.py	/^    def clear(self):$/;"	m	class:Session
+close	safemime.py	/^    def close(self):$/;"	m	class:MultipartWrapper
+close	sessions.py	/^def close():$/;"	f
+compress	encoding.py	/^def compress(body, compress_level):$/;"	f
+decode	encoding.py	/^def decode(encoding=None, default_encoding='utf-8'):$/;"	f
+decode_TEXT	http.py	/^def decode_TEXT(value):$/;"	f
+decode_params	encoding.py	/^def decode_params(encoding):$/;"	f
+decompress	encoding.py	/^def decompress(body):$/;"	f
+delete	caching.py	/^    def delete(self):$/;"	m	class:MemoryCache
+delete	sessions.py	/^    def delete(self):$/;"	m	class:Session
+digestAuth	httpauth.py	/^def digestAuth (realm, algorithm = MD5, nonce = None, qop = AUTH):$/;"	f
+digest_auth	auth.py	/^def digest_auth(realm, users):$/;"	f
+doAuth	httpauth.py	/^def doAuth (realm):$/;"	f
+do_check	cptools.py	/^    def do_check(self):$/;"	m	class:SessionAuth
+do_login	cptools.py	/^    def do_login(self, username, password, from_page='..', **kwargs):$/;"	m	class:SessionAuth
+do_logout	cptools.py	/^    def do_logout(self, from_page='..', **kwargs):$/;"	m	class:SessionAuth
+elements	http.py	/^    def elements(self, key):$/;"	m	class:HeaderMap
+encode	encoding.py	/^def encode(encoding=None, errors='strict', text_only=True, add_charset=True):$/;"	f
+encode_stream	encoding.py	/^def encode_stream(encoding, errors='strict'):$/;"	f
+encode_string	encoding.py	/^def encode_string(encoding, errors='strict'):$/;"	f
+encoder	encoding.py	/^    def encoder(body):$/;"	f
+expire	sessions.py	/^def expire():$/;"	f
+expire_cache	caching.py	/^    def expire_cache(self):$/;"	m	class:MemoryCache
+expires	caching.py	/^def expires(secs=0, force=False):$/;"	f
+file_generator	__init__.py	/^def file_generator(input, chunkSize=65536):$/;"	f
+file_generator_limited	__init__.py	/^def file_generator_limited(fileobj, count, chunk_size=65536):$/;"	f
+file_ranges	static.py	/^                def file_ranges():$/;"	f
+find_acceptable_charset	encoding.py	/^def find_acceptable_charset(encoding=None, default_encoding='utf-8', errors='strict'):$/;"	f
+flatten	cptools.py	/^def flatten():$/;"	f
+flattener	cptools.py	/^    def flattener(input):$/;"	f
+from_str	http.py	/^    def from_str(cls, elementstr):$/;"	m	class:AcceptElement
+from_str	http.py	/^    def from_str(cls, elementstr):$/;"	m	class:HeaderElement
+fromkeys	http.py	/^    def fromkeys(cls, seq, value=None):$/;"	m	class:CaseInsensitiveDict
+gather	profiler.py	/^        def gather():$/;"	m	class:make_app
+generate_id	sessions.py	/^        def generate_id(self):$/;"	m	class:Session
+get	caching.py	/^    def get(self):$/;"	m	class:MemoryCache
+get	caching.py	/^def get(invalid_methods=("POST", "PUT", "DELETE"), **kwargs):$/;"	f
+get	http.py	/^    def get(self, key, default=None):$/;"	m	class:CaseInsensitiveDict
+get	sessions.py	/^    def get(self, key, default=None):$/;"	m	class:Session
+get_ranges	http.py	/^def get_ranges(headervalue, content_length):$/;"	f
+get_tree	covercp.py	/^def get_tree(base, exclude):$/;"	f
+gzip	encoding.py	/^def gzip(compress_level=9, mime_types=['text\/html', 'text\/plain']):$/;"	f
+has_key	http.py	/^    def has_key(self, key):$/;"	m	class:CaseInsensitiveDict
+has_key	sessions.py	/^    def has_key(self, key):$/;"	m	class:Session
+header_elements	http.py	/^def header_elements(fieldname, fieldvalue):$/;"	f
+html_break	tidy.py	/^def html_break(text):$/;"	f
+html_space	tidy.py	/^def html_space(text):$/;"	f
+ignore_headers	cptools.py	/^def ignore_headers(headers=('Range',)):$/;"	f
+index	covercp.py	/^    def index(self):$/;"	m	class:CoverStats
+index	profiler.py	/^    def index(self):$/;"	m	class:Profiler
+init	safemime.py	/^def init():$/;"	f
+init	sessions.py	/^def init(storage_type='ram', path=None, path_header=None, name='session_id',$/;"	f
+items	sessions.py	/^    def items(self):$/;"	m	class:Session
+key	caching.py	/^    def key(self):$/;"	m	class:MemoryCache
+keys	sessions.py	/^    def keys(self):$/;"	m	class:Session
+load	sessions.py	/^    def load(self):$/;"	m	class:Session
+log_hooks	cptools.py	/^def log_hooks():$/;"	f
+log_request_headers	cptools.py	/^def log_request_headers():$/;"	f
+log_traceback	cptools.py	/^def log_traceback(severity=logging.DEBUG):$/;"	f
+login_screen	cptools.py	/^    def login_screen(self, from_page='..', username='', error_msg='', **kwargs):$/;"	m	class:SessionAuth
+make_app	profiler.py	/^class make_app:$/;"	c
+make_environ	wsgiapp.py	/^def make_environ():$/;"	f
+md5SessionKey	httpauth.py	/^def md5SessionKey (params, password):$/;"	f
+menu	covercp.py	/^    def menu(self, base="\/", pct="50", showpct="",$/;"	m	class:CoverStats
+menu	profiler.py	/^    def menu(self):$/;"	m	class:Profiler
+modules	__init__.py	/^def modules(modulePath):$/;"	f
+new_func_strip_path	profiler.py	/^def new_func_strip_path(func_name):$/;"	f
+next	safemime.py	/^    def next(self):$/;"	m	class:MultipartWrapper
+nsgmls	tidy.py	/^def nsgmls(temp_dir, nsgmls_path, catalog_path, errors_to_ignore=None):$/;"	f
+on_check	cptools.py	/^    def on_check(self, username):$/;"	m	class:SessionAuth
+on_error	xmlrpc.py	/^def on_error(*args, **kwargs):$/;"	f
+on_login	cptools.py	/^    def on_login(self, username):$/;"	m	class:SessionAuth
+on_logout	cptools.py	/^    def on_logout(self, username):$/;"	m	class:SessionAuth
+output	http.py	/^    def output(self, protocol=(1, 1)):$/;"	m	class:HeaderMap
+params_from_CGI_form	http.py	/^def params_from_CGI_form(form):$/;"	f
+parse	http.py	/^    def parse(elementstr):$/;"	m	class:HeaderElement
+parseAuthorization	httpauth.py	/^def parseAuthorization (credentials):$/;"	f
+parse_query_string	http.py	/^def parse_query_string(query_string, keep_blank_values=True):$/;"	f
+patched_path	xmlrpc.py	/^def patched_path(path):$/;"	f
+pop	http.py	/^    def pop(self, key, default):$/;"	m	class:CaseInsensitiveDict
+pop	sessions.py	/^    def pop(self, key, default=missing):$/;"	m	class:Session
+process_body	xmlrpc.py	/^def process_body():$/;"	f
+protocol_from_http	http.py	/^def protocol_from_http(protocol_str):$/;"	f
+proxy	cptools.py	/^def proxy(base=None, local='X-Forwarded-Host', remote='X-Forwarded-For',$/;"	f
+put	caching.py	/^    def put(self, obj):$/;"	m	class:MemoryCache
+qvalue	http.py	/^    def qvalue(self):$/;"	m	class:AcceptElement
+read	safemime.py	/^    def read(self, size = None):$/;"	m	class:MultipartWrapper
+readline	safemime.py	/^    def readline(self, size = None):$/;"	m	class:MultipartWrapper
+readlines	safemime.py	/^    def readlines(self, sizehint = 0):$/;"	m	class:MultipartWrapper
+redirect	cptools.py	/^def redirect(url='', internal=True):$/;"	f
+referer	cptools.py	/^def referer(pattern, accept=True, accept_missing=False, error=403,$/;"	f
+regenerate	sessions.py	/^    def regenerate(self):$/;"	m	class:Session
+release_lock	sessions.py	/^    def release_lock(self):$/;"	m	class:MemcachedSession
+release_lock	sessions.py	/^    def release_lock(self):$/;"	m	class:PostgresqlSession
+release_lock	sessions.py	/^    def release_lock(self):$/;"	m	class:RamSession
+release_lock	sessions.py	/^    def release_lock(self, path=None):$/;"	m	class:FileSession
+report	covercp.py	/^    def report(self, name):$/;"	m	class:CoverStats
+report	profiler.py	/^    def report(self, filename):$/;"	m	class:Profiler
+respond	xmlrpc.py	/^def respond(body, encoding='utf-8', allow_none=0):$/;"	f
+response_headers	cptools.py	/^def response_headers(headers=None):$/;"	f
+run	cptools.py	/^    def run(self):$/;"	m	class:SessionAuth
+run	profiler.py	/^    def run(self, func, *args):$/;"	m	class:ProfileAggregator
+run	profiler.py	/^    def run(self, func, *args, **params):$/;"	m	class:Profiler
+run	wsgiapp.py	/^def run(app, env=None):$/;"	f
+safe_multipart	safemime.py	/^def safe_multipart(flash_only=False):$/;"	f
+save	sessions.py	/^    def save(self):$/;"	m	class:Session
+save	sessions.py	/^def save():$/;"	f
+serve	covercp.py	/^def serve(path=localFile, port=8080):$/;"	f
+serve	profiler.py	/^def serve(path=None, port=8080):$/;"	f
+serve_download	static.py	/^def serve_download(path, name=None):$/;"	f
+serve_file	static.py	/^def serve_file(path, content_type=None, disposition=None, name=None):$/;"	f
+session_auth	cptools.py	/^def session_auth(**kwargs):$/;"	f
+set_response_cookie	sessions.py	/^def set_response_cookie(path=None, path_header=None, name='session_id',$/;"	f
+setdefault	http.py	/^    def setdefault(self, key, x=None):$/;"	m	class:CaseInsensitiveDict
+setdefault	sessions.py	/^    def setdefault(self, key, default=None):$/;"	m	class:Session
+setup	sessions.py	/^    def setup(cls, **kwargs):$/;"	m	class:FileSession
+setup	sessions.py	/^    def setup(cls, **kwargs):$/;"	m	class:MemcachedSession
+setup	sessions.py	/^    def setup(cls, **kwargs):$/;"	m	class:PostgresqlSession
+start	covercp.py	/^    def start(threadid=None):$/;"	f
+start_response	wsgiapp.py	/^def start_response(status, response_headers, exc_info=None):$/;"	f
+statfiles	profiler.py	/^    def statfiles(self):$/;"	m	class:Profiler
+staticdir	static.py	/^def staticdir(section, dir, root="", match="", content_types=None, index=""):$/;"	f
+staticfile	static.py	/^def staticfile(filename, root=None, match="", content_types=None):$/;"	f
+stats	profiler.py	/^    def stats(self, filename, sortby='cumulative'):$/;"	m	class:Profiler
+tee	caching.py	/^    def tee(body):$/;"	f
+tee_output	caching.py	/^def tee_output():$/;"	f
+tidy	tidy.py	/^def tidy(temp_dir, tidy_path, strict_xml=False, errors_to_ignore=None,$/;"	f
+trailing_slash	cptools.py	/^def trailing_slash(missing=True, extra=False):$/;"	f
+unrepr	__init__.py	/^def unrepr(s):$/;"	f
+update	http.py	/^    def update(self, E):$/;"	m	class:CaseInsensitiveDict
+update	sessions.py	/^    def update(self, d):$/;"	m	class:Session
+update_cookie	sessions.py	/^    def update_cookie(id):$/;"	f
+urljoin	http.py	/^def urljoin(*atoms):$/;"	f
+valid_status	http.py	/^def valid_status(status):$/;"	f
+validate_etags	cptools.py	/^def validate_etags(autotags=False):$/;"	f
+validate_since	cptools.py	/^def validate_since():$/;"	f
+values	sessions.py	/^    def values(self):$/;"	m	class:Session
+wrong_content	tidy.py	/^def wrong_content(header, body, content_type="HTML"):$/;"	f

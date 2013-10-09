@@ -1,0 +1,131 @@
+﻿body {font-family: "宋体", Arial, Helvetica, sans-serif;font-size: 14px;color: #000000;}
+div,li,ul,form,span{ margin:0 ; padding:0}
+.left{ float:left}
+.right{ float:right}
+.inputTextCss {border: #00CCFF 1px solid ; background:#00FFCC}
+.inputPassCss {border: #00CCFF 1px solid ; background:#00FFCC}
+.BTValue{ color:#000000; font-size:14px}
+
+
+/*页面加载对话框样式*/
+#loadingTab{position:absolute;left:38%;top:40%;padding:2px;z-index:20001;height:auto;border:1px solid #CCCCFF; width:250px}
+#loadingTab a {color:#225588;text-decoration:none}
+#loadingTab a:hover {color:#999900;text-decoration: underline;}
+#loadingTab .loading-indicator{background:white;color:#444;font:bold 16px tahoma,arial,helvetica;padding:10px;margin:0;height:auto;}
+#loading-yfo a { font-size:14px;color:#999999;text-decoration:none}
+#loading-yfo a:hover {color:#000000;text-decoration:none}
+#loading-msg {font: normal 14px arial,tahoma,sans-serif;}
+
+/*主页面*/
+#topFrame{ height:80px; width:100%;}
+
+/*图标*/
+.addIconCss {background-image:url(../img/add.gif) !important;}
+.deleteIconCss{background-image:url(../img/delete.gif) !important;}
+.selectIconCss{background-image:url(../img/select_top.gif) !important;}
+.refreshIcon{background-image:url(../img/refresh2.gif) !important;}
+.editIconCss{background-image:url(../img/edit.gif) !important;}
+.recoverIconCss{background-image:url(../img/recover.png) !important;}
+.ux-mselect{
+    overflow:auto;
+    background:white;
+    position:relative; /* for calculating scroll offsets */
+    zoom:1;
+    overflow:auto;	
+}
+.ux-mselect-item{
+    font:normal 12px tahoma, arial, helvetica, sans-serif;
+    padding:2px;
+    border:1px solid #fff;
+    white-space: nowrap;
+    cursor:pointer;
+}
+.ux-mselect-selected{
+	border:1px dotted #a3bae9 !important;
+    background:#DFE8F6;
+    cursor:pointer;
+}
+
+.x-view-drag-insert-above { 
+    border-top:1px dotted #3366cc; 
+} 
+.x-view-drag-insert-below { 
+    border-bottom:1px dotted #3366cc; 
+} 
+
+.x-tree-node-leaf img.tree-new-icon { background-image:url(../img/drop-add.gif) !important; }
+
+.tree-node-UserPanel {  background-image:url(../img/icn_user.png) !important; }
+.tree-node-GroupPanel {  background-image:url(../img/icn_group.png) !important; }
+.tree-node-NetPanel {  background-image:url(../img/icn_net.png) !important; }
+.tree-node-ClientPanel {  background-image:url(../img/icn_client.png) !important; }
+.tree-node-OSPanel {  background-image:url(../img/icn_os.png) !important; }
+.tree-node-PitPanel {  background-image:url(../img/icn_pit1.png) !important; }
+.tree-node-FilePanel {  background-image:url(../ext/resources/images/default/tree/folder.gif) !important; }
+.tree-node-UserInfoPanel {  background-image:url(../img/info.png) !important; }
+.tree-node-usernode {  background-image:url(../img/icn_user1.png) !important; }
+.tree-node-osnode {  background-image:url(../img/icn_os.png) !important; }
+.tree-node-SysInfoPanel {  background-image:url(../img/icn_sysinfo.png) !important; }
+.tree-node-SysSettingPanel {  background-image:url(../img/icn_server.png) !important; }
+.tree-node-SwRegisterPanel {  background-image:url(../img/icn_register.png) !important; }
+
+.tree-node-SysSettingPanel {  background-image:url(../img/icn_server.png) !important; }
+.tree-node-SysSetting-network {  background-image:url(../img/icn_network.png) !important; }
+.tree-node-SysSetting-network-nic {  background-image:url(../img/icn_network_nic.png) !important; }
+.tree-node-SysSetting-network-nat{  background-image:url(../img/icn_network_nat.png) !important; }
+.tree-node-SysSetting-network-adsl{  background-image:url(../img/icn_network_adsl.png) !important; }
+.tree-node-SysSetting-network-dns{  background-image:url(../img/icn_network_dns.png) !important; }
+.tree-node-SysSetting-network-dhcp{  background-image:url(../img/icn_network_dhcp.png) !important; }
+.tree-node-SysSetting-storage{  background-image:url(../img/icn_storage.png) !important; }
+.tree-node-SysSetting-pssrv{  background-image:url(../img/icn_server.png) !important; }
+.tree-node-sys-reboot {  background-image:url(../img/icn_reboot.gif) !important; }
+.tree-node-sys-poweroff{  background-image:url(../img/icn_poweroff.gif) !important; }
+
+.tree-node-about{  background-image:url(../img/icn_about.png) !important; }
+.tree-node-help{  background-image:url(../img/icn_help.png) !important; }
+
+.clientRebootCss{background-image:url(../img/icn_restart.png) !important;}
+.clientPoweroffCss{background-image:url(../img/icn_shutdown.png) !important;}
+.logoutIconCss{background-image:url(../img/icn_logout.png) !important;}
+
+.PrevIconCss{background-image:url(../img/location_back.png) !important;}
+.NextIconCss{background-image:url(../img/location_forward.png) !important;}
+
+.bindUserCss{background-image:url(../img/icn_bind.png) !important;}
+.unbindUserCss{background-image:url(../img/icn_unbind.png) !important;}
+.forceUserLogoutCss{background-image:url(../img/icn_stop.png) !important;}
+.setupIconCss{background-image:url(../img/icn_setup.png) !important;}
+.cloneOSIconCss{background-image:url(../img/icn_osclone.png) !important;}
+.replaceOSIconCss{background-image:url(../img/icn_replace.png) !important;}
+.loadingIcon{
+    background-image:url(../img/loading.gif) !important;
+    background-repeat:no-repeat;
+/*    background-attachment:fixed; */
+    background-position:center;
+}
+
+.css-grid-cell-white{ color: #FFFFFF; }
+.css-grid-cell-black{ color: #000000; }
+.css-grid-cell-red{ color: red; }
+.css-grid-cell-green{ color: green; }
+.css-grid-cell-blue{ color: blue; }
+.css-grid-cell-cyan{ color: #00FFFF; }
+.css-grid-cell-pink{ color: #FF00FF; }
+.css-grid-cell-yellow{ color: #FFFF00; }
+.css-grid-cell-purple{ color: #9900FF; }
+
+
+div.css-private{
+background-color: #66FF55;
+}
+
+div.css-password{
+    background-color: #0000ff;
+}
+
+div.x-grid3-row-over {
+    background:none;
+    background-color: #F8ED50;
+}
+
+

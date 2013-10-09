@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<!--加载等待标签-->
+<div id="loadingTab">
+    <div class="loading-indicator">
+		<img src="img/loading.gif" alt="loading" width="32" height="32" style="margin-right:8px;float:left;vertical-align:top;"/>
+        <a href="pssrv">小迈学围棋</a><br />
+		<span id="loading-msg">加载样式表和图片...</span>
+  </div>
+</div>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta http-equiv="Expires" content="Sat, 01 Dec 2001 00:00:00 GMT"/>
+    <title>小迈学围棋</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+    <link rel="Bookmark" href="/img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="ext/resources/css/ext-all.css" />
+    <link rel="stylesheet" type="text/css" href="css/desktop.css" /> 
+    <link rel="stylesheet" type="text/css" href="css/spinner.css" /> 
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/ext-patch.css" />
+    <link rel="stylesheet" type="text/css" href="css/SwfUploadPanel.css" />
+    <link rel="stylesheet" type="text/css" href="css/LocationBar.css" />
+</head>
+<body>
+<script type="text/javascript">document.getElementById('loading-msg').innerHTML = '正在加载UI组件...';</script>
+<script language="javascript" type="text/javascript" src="ext/adapter/ext/ext-base.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="ext/ext-all.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="js/ajax.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="js/xiti_panel.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="js/stat_panel.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="js/menu.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="js/manage.js" charset="utf-8"></script>
+
+<script language="javascript" type="text/javascript">document.getElementById('loading-msg').innerHTML = '正在初始化组件...';</script>
+<script language="javascript" type="text/javascript"> Ext.get('loadingTab').fadeOut({remove: true});</script>
+<div id="pit-tree-container"> </div> 
+
+</body>
+</html>
+
