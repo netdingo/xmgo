@@ -1,0 +1,215 @@
+﻿/* Ext 2.0 */
+.x-window-footer {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.x-tab-strip SPAN.x-tab-strip-text  {
+	font-size: 14px;
+}
+
+.x-tab-strip-active {
+	font-size: 16px;
+    color:#FF0000;
+}
+
+.x-tab-strip-active .x-tab-strip-text{
+    color: blue !important;
+}
+
+.x-panel-header {
+	font-size: 14px;
+}
+.x-tree-node {
+	font-size: 14px;
+}
+.x-grid3-hd-row TD {
+	font-size: 14px;
+}
+.x-grid3-row TD {
+	font-size: 14px;
+	LINE-HEIGHT: 18px;
+}
+.x-grid3-row-alt{
+    background-color:#fff0d0;
+}
+
+.x-tip .x-tip-bd {
+	font-size: 14px;
+}
+.x-tip h3{
+	font-size: 14px;
+}
+.x-tip .x-tip-bd-inner{
+	font-size:14px;
+}
+
+.x-tip .x-tip-mc {
+	font-size:14px;
+}
+
+.x-tip .x-tip-header-text {
+	font-size:14px;
+}
+
+.x-tip .x-tip-body {
+	font-size:14px;
+}
+
+
+.x-panel-tl .x-panel-header {
+	FONT: normal 14px tahoma,arial,verdana,宋体;
+}
+
+.x-panel-mc {
+    font-family:tahoma,arial,helvetica,宋体;
+    font-size:14px;
+}
+
+.x-form-field {
+	FONT: 14px tahoma,arial,helvetica,宋体	
+}
+.x-small-editor .x-form-field {
+	FONT: 14px tahoma,arial,helvetica,宋体	
+}
+.x-combo-list-item {
+	FONT: 14px tahoma,arial,helvetica,宋体;	
+}	
+.x-menu-list-item {
+	FONT: 14px tahoma,arial,宋体;
+}
+.x-window-tl .x-window-header {
+	FONT: bold 14px tahoma,arial,verdana,宋体;	
+}
+.x-layout-split-west .x-layout-mini {	
+	BACKGROUND-IMAGE: url(../img/mini-left.jpg);	
+}
+.ext-ie .x-form-text {
+	margin-top:1px;
+} /* the textField missing bottom line */
+.x-form-item {	
+	FONT: 14px tahoma,arial,helvetica,宋体
+}
+.x-grid-group-hd DIV {	
+	FONT: bold 14px tahoma,arial,helvetica,宋体;
+}
+
+/*按钮字体大小 Add by extjs.org.cn */
+.x-btn-text{
+	FONT: 14px tahoma,arial,宋体;
+}
+
+.x-btn{
+	font:normal 14px tahoma, verdana, helvetica, 宋体;
+}
+
+.x-btn button{
+    font:normal 14px arial,tahoma,verdana,helvetica, 宋体;
+    color:#333;
+}
+
+.x-fieldset legend {
+    font-family:tahoma,arial,helvetica, 宋体;
+    font-size:14px;
+}
+
+
+.x-toolbar td, .x-toolbar span, .x-toolbar input, .x-toolbar div, .x-toolbar select, .x-toolbar label {
+    font-family:arial,tahoma,helvetica, 宋体;
+    font-size:14px;
+}
+
+.x-list-body dt em {
+    font-family:arial,tahoma,helvetica, 宋体;
+    font-size:14px;
+}
+
+.x-list-body {
+    /* height: 80px; */
+	background-color:#ffffff;
+}
+
+
+.x-list-header div dt em{
+    font-family:arial,tahoma,helvetica, 宋体;
+    font-size:14px; 
+	background-color:#909090;
+}
+
+.x-list-header-inner div em {
+    font-family:arial,tahoma,helvetica, 宋体;
+    font-size:14px; 
+	/* background-color:#00B000; */
+}
+
+.x-list-body-inner div em{
+    color:#333;
+	background-color:#ffffff;
+}
+
+.x-list-selected {
+	background-color:#00B000;
+}
+
+.x-list-over{
+	background-color:#007070;
+    color:#ffffff;
+}
+
+.x-tree-node .x-tree-selected {
+	background-color:#00D000;
+}
+
+.x-tree-node .x-tree-node-over{
+	background-color:cyan
+}
+
+.x-plain-body {
+    font-family:arial,tahoma,helvetica, 宋体;
+    font-size:16px;
+}
+
+.x-plain-header-text{
+    font-family:arial,tahoma,helvetica, 宋体;
+    font-size:16px;
+}
+
+.x-window-dlg .ext-mb-text, .x-window-dlg .x-window-header-text {
+    font-family:arial,tahoma,helvetica, 宋体;
+    font-size:14px;
+}
+
+.ux-layout-center-item {
+    margin:0 auto;
+    text-align:left;
+}
+.ux-layout-center .x-panel-body,   
+body.ux-layout-center {            
+    text-align:center;
+}
+
+.x-form-display-field{
+    font-family:arial,tahoma,helvetica, 宋体;
+    height: 20px; 
+    padding-top:4px; 
+    font-size:14px;
+}
+
+.x-form-checkbox {
+    font-family:arial,tahoma,helvetica, 宋体;
+    margin-top:6px;
+    font-size:14px;
+}
+
+/*
+.label-align-left .x-form-item {
+text-align: left;
+padding-right:2px;
+}
+.label-align-left label {
+text-align: right;
+}
+*/
+
+/* END */
+
