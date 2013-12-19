@@ -191,19 +191,19 @@ go.MainPanel = function() {
                           '当前习题集：' 
                           ,{ id:'current_xiti_set', 
                             xtype: 'tbtext',
-                            width: 260,
+                            width: 260
                           }
                           ,"-"
                           ,'总数：'
                           ,{ id:'xiti_sum', 
                             xtype: 'tbtext',
-                            width: 40,
+                            width: 40
                           }
                           ,"-"
                           ,'完成数：'
                           ,{ id:'xiti_finish_sum', 
                             xtype: 'tbtext',
-                            width: 40,
+                            width: 40
                           }
                           ,"-"
                           ,{ id:'prev_xiti', 
@@ -230,14 +230,14 @@ go.MainPanel = function() {
                           ,'状态：'
                           ,{ id:'current_xiti_status', 
                             xtype: 'tbtext',
-                            width: 50,
+                            width: 50
                           }
                         ]
                     ,bbar:[
                           'log：'
                           ,{ id:'msg_board', 
                             xtype: 'tbtext',
-                            width: 300,
+                            width: 300
                           }
                         ]
                     ,draggable:false
@@ -278,7 +278,7 @@ function do_load_goxiti(fp, wid, hei, url, callback){
         ruler:0,
         script:1,
         crypt: current_crypt,
-        sgfurl: url,
+        sgfurl: url
     };
     var params =  {
         bgcolor: "#869ca7",
@@ -300,7 +300,7 @@ function load_goxiti_swf() {
     var wid = p.getWidth(); 
     var hei = p.getHeight();
 
-    if (wid < 2 || hei < 2){
+    if (wid < 20 || hei < 20){
         return;
     }
     /*
@@ -308,6 +308,7 @@ function load_goxiti_swf() {
         return;
     }
     */
+    // alert("wid= " + wid  + ", hei= " + hei);
     do_load_goxiti(fp_name, wid, hei, XITI_LOAD_SGF);
     last_flash_panel_width  = wid;
     last_flash_panel_height = hei;

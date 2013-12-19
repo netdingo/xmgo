@@ -43,16 +43,18 @@ function show_main_panel(){
     var mgmtwin = new Ext.Window( {
         layout : 'border',
         closable : false,
-        draggable: true,
-        resizable: true, 
-        maximizable : true,
-        minimizable : true,
+        draggable: false,
+        resizable: false, 
+        maximizable : false,
+        minimizable : false,
+        maximized: true,
+        /*
         width    : 1000,
         height   : 600,
+        */
         title    : mb_product_name,
-        items    : [ menu, main]
+        items    : [ /*menu, */ main ]
     });
-    mgmtwin.show();
     main.addListener('beforetabchange', 
                      function(mainTabPanel, newTab, currentTab){
                         if(newTab && newTab.refresh){
@@ -65,6 +67,7 @@ function show_main_panel(){
                         }
                      }, 
                      this);
+    mgmtwin.show();
     srv_event_cfg = {
         run: getSrvEvent,  //执行任务时执行的函数
         interval: 7 * 1000           //任务间隔，毫秒为单位，这里是7秒

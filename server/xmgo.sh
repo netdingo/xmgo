@@ -18,7 +18,7 @@ do_start()
 do_stop()
 {
     cd ${PROG_PATH}
-    wget http://localhost:9158/priv?cmd=shutdown
+    curl http://localhost:9158/priv?cmd=shutdown
 }
 
 case "$1" in
